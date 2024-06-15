@@ -95,6 +95,25 @@
                         </button>
                     </div>
                 </div>
+                <div class="menu-modal">
+                    <div class="container">
+                        <h1 class="menu-modal__title">Menu</h1>
+                        <ul class="menu-modal__list">
+                            <li class="menu-modal__item">
+                                <a href="#" class="menu-modal__link link">Menu item</a>
+                            </li>
+                            <li class="menu-modal__item">
+                                <a href="#" class="menu-modal__link link">Menu item</a>
+                            </li>
+                            <li class="menu-modal__item">
+                                <a href="#" class="menu-modal__link link">Menu item</a>
+                            </li>
+                            <li class="menu-modal__item">
+                                <a href="#" class="menu-modal__link link">Menu item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -609,8 +628,13 @@
                             fill="white" />
                     </svg>`;
 
+        const logoEls = document.querySelectorAll('.logo');
+
         const faqItems = document.querySelectorAll('.faq__item');
         const toTopBtn = document.querySelector('.to-top');
+
+        const menuBtn = document.querySelector('.menu-btn');
+        const menuModal = document.querySelector(".menu-modal")
 
         faqItems.forEach(el => {
             el.addEventListener('click', () => {
@@ -625,14 +649,18 @@
             });
         });
 
-        const logoEls = document.querySelectorAll('.logo');
         logoEls.forEach(el => {
             el.innerHTML = logo;
         });
 
         toTopBtn.addEventListener("click", () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
-        })
+        });
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            menuModal.classList.toggle("active");
+        });
     </script>
 </body>
 

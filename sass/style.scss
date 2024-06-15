@@ -86,16 +86,68 @@ $gray-color: #777777;
                 align-items: flex-end;
                 flex-direction: column;
                 gap: 9px;
+                position: relative;
+                z-index: 99;
                 span {
                     display: inline-block;
                     width: 100%;
                     background: $light-color;
-                    height: 1.5px;
+                    height: 2px;
+                    transition: all 0.7s ease;
                 }
                 span:nth-child(2),
                 span:nth-child(3) {
                     width: 24px;
                 }
+                &.active {
+                    span:nth-child(1) {
+                        transform: rotate(45deg) translateY(15px);
+                        width: 100%;
+                    }
+                    span:nth-child(2) {
+                        width: 0;
+                    }
+                    span:nth-child(3) {
+                        width: 100%;
+                        transform: rotate(-45deg) translateY(-15px);
+                    }
+                }
+            }
+        }
+        .menu-modal {
+            padding: 50px 0;
+            position: fixed;
+            width: 100%;
+            background-color: $dark-color;
+            left: 0;
+            top: -100%;
+            transition: all 0.7s ease;
+            color: $light-color;
+            &__title {
+                font-family: $secondary-font;
+                letter-spacing: 10px;
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+            &__list {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 0 20px;
+                li {
+                    font-size: 20px;
+                    .menu-modal__link {
+                        color: $light-color;
+                        &:hover,
+                        &:focus {
+                            color: $orange-color;
+                        }
+                    }
+                }
+            }
+            &.active {
+                top: 0;
             }
         }
     }
