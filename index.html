@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vazifa</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="navbar__logo logo link"></a>
+                <div class="navbar__content">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link link">Trade in</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link link">Запчасти</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link link">Экипировка</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link link">Аксессуары</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link link">Велостанки</a>
+                        </li>
+                    </ul>
+                    <div class="navbar__btns">
+                        <div class="list">
+                            <a href="#" class="navbar__btn btn link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M16 10.5C16 14.6421 12.6421 18 8.5 18C4.35786 18 1 14.6421 1 10.5C1 6.35786 4.35786 3 8.5 3C12.6421 3 16 6.35786 16 10.5Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M17.9994 20L13.8027 15.8033" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <a href="#" class="navbar__btn btn link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M14 15H6C3.79086 15 2 16.7909 2 19V21H10H18V19C18 16.7909 16.2091 15 14 15Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M10 11C12.2091 11 14 9.20914 14 7C14 4.79086 12.2091 3 10 3C7.79086 3 6 4.79086 6 7C6 9.20914 7.79086 11 10 11Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <a href="#" class="navbar__btn btn link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M4.3314 12.0474L12 20L19.6686 12.0474C20.5211 11.1633 21 9.96429 21 8.71405C21 6.11055 18.9648 4 16.4543 4C15.2487 4 14.0925 4.49666 13.24 5.38071L12 6.66667L10.76 5.38071C9.90749 4.49666 8.75128 4 7.54569 4C5.03517 4 3 6.11055 3 8.71405C3 9.96429 3.47892 11.1633 4.3314 12.0474Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <circle cx="19" cy="5" r="3" fill="#F57520" />
+                                </svg>
+                            </a>
+                            <a href="#" class="navbar__btn btn link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path d="M17 17H6.5L4.5 3H2" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.78516 5H20.9994L17.9994 14H6.07087" stroke="white" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M9 21C10.1046 21 11 20.1046 11 19C11 17.8954 10.1046 17 9 17C7.89543 17 7 17.8954 7 19C7 20.1046 7.89543 21 9 21Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <circle cx="19" cy="5" r="3" fill="#F57520" />
+                                </svg>
+                            </a>
+                        </div>
+                        <button class="navbar__btn btn menu-btn" title="Menu">
+                            <span class="menu-btn__line"></span>
+                            <span class="menu-btn__line"></span>
+                            <span class="menu-btn__line"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="#" class="breadcrumb__link link">Главная </a>
+                </li>
+                <li class="breadcrumb__item">
+                    /
+                    <a href="#" class="breadcrumb__link link">Контакты</a>
+                </li>
+            </ul>
+            <h1 class="title">Контакты</h1>
+        </div>
+    </section>
+    <!-- breadcrumb end -->
+
+    <!-- map -->
+    <section class="map" id="map">
+        <div class="container">
+            <button class="picker logo btn" title="Picker"></button>
+        </div>
+    </section>
+    <!-- map end -->
+
+    <!-- contacts -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="left">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <h3 class="contacts__title title">Адрес магазина:</h3>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">Россия, Москва, ул. Доватора, дом 7/8 с1</p>
+                    </li>
+                </ul>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <h3 class="contacts__title title">График работы:</h3>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">Понедельник — Воскресение с 10:00 до 20:00 часа</p>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">БЕЗ ВЫХОДНЫХ</p>
+                    </li>
+                </ul>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <h3 class="contacts__title title">Телефоны:</h3>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">+7 (495) 055-75-86</p>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">+7 (965) 142-22-99</p>
+                    </li>
+                </ul>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <h3 class="contacts__title title">E-mail:</h3>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">order@world-bike.ru — заказы</p>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">info@world-bike.ru — информация</p>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__text">opt@world-bike.ru — опт</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <h3 class="contacts__title title">Юридическая информация:</h3>
+                    </li>
+                    <li class="contacts__item">
+                        <span>Наименование:</span>
+                        <span>ИП НЕТРЕБИН ВЛАДИСЛАВ ВЯЧЕСЛАВОВИЧ</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>ИНН:</span>
+                        <span>402573939444</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>ОГРН:</span>
+                        <span>317402700004683</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>Фактический адрес:</span>
+                        <span>Москва, ул. Доватора, дом 7/8 с1</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>Юридический адрес:</span>
+                        <span>Москва, ул. Доватора, дом 7/8 с1</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>Расчетный счет:</span>
+                        <span>40802810800000085888</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>Банк:</span>
+                        <span>АО «ТИНЬКОФФ БАНК»</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>Корр.счет:</span>
+                        <span>30101810145250000974</span>
+                    </li>
+                    <li class="contacts__item">
+                        <span>БИК:</span>
+                        <span>044525974</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- contacts end -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="contact__title">SVYAJITES' S NAMI PO LYuBIM VOPROSAM</h2>
+            <form action="" class="contact__form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Имя">
+                    <input type="text" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Телефон">
+                    <input type="text" class="form-control" placeholder="Компания">
+                </div>
+                <textarea placeholder="Сообщение" class="form-control"></textarea>
+                <button class="btn" type="submit">Задать вопрос</button>
+            </form>
+        </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- faq -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="faq__title title">TEZ TEZ SO'RALADIGAN SAVOLLAR</h2>
+            <div class="faq__list">
+                <button class="faq__item active btn">
+                    <div class="faq__top">
+                        <h3 class="title">Получу ли я тот же товар, что и на картинке?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                            <g clip-path="url(#clip0_2124_2551)">
+                                <path
+                                    d="M2.90156 5.37495L11.3016 13.8C11.4016 13.9 11.5099 13.9706 11.6266 14.012C11.7432 14.054 11.8682 14.075 12.0016 14.075C12.1349 14.075 12.2599 14.054 12.3766 14.012C12.4932 13.9706 12.6016 13.9 12.7016 13.8L21.1266 5.37495C21.3599 5.14162 21.4766 4.84995 21.4766 4.49995C21.4766 4.14995 21.3516 3.84995 21.1016 3.59995C20.8516 3.34995 20.5599 3.22495 20.2266 3.22495C19.8932 3.22495 19.6016 3.34995 19.3516 3.59995L12.0016 10.95L4.65156 3.59995C4.41823 3.36662 4.1309 3.24995 3.78956 3.24995C3.44756 3.24995 3.15156 3.37495 2.90156 3.62495C2.65156 3.87495 2.52656 4.16662 2.52656 4.49995C2.52656 4.83328 2.65156 5.12495 2.90156 5.37495Z"
+                                    fill="currentColor" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2124_2551">
+                                    <rect width="14" height="24" fill="currentColor"
+                                        transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 24 14.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="faq__contents">
+                        <p class="faq__content">Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis
+                            enim natoque tempus a malesuada suspendisse
+                            iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id
+                            parturient ullamcorper
+                            ullamcorper class ad consectetur tristique et.</p>
+                        <p class="faq__content">Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo
+                            a praesent conubia aenean mi tempor.</p>
+                    </div>
+                </button>
+                <button class="faq__item btn">
+                    <div class="faq__top">
+                        <h3 class="title">Получу ли я тот же товар, что и на картинке?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                            <g clip-path="url(#clip0_2124_2551)">
+                                <path
+                                    d="M2.90156 5.37495L11.3016 13.8C11.4016 13.9 11.5099 13.9706 11.6266 14.012C11.7432 14.054 11.8682 14.075 12.0016 14.075C12.1349 14.075 12.2599 14.054 12.3766 14.012C12.4932 13.9706 12.6016 13.9 12.7016 13.8L21.1266 5.37495C21.3599 5.14162 21.4766 4.84995 21.4766 4.49995C21.4766 4.14995 21.3516 3.84995 21.1016 3.59995C20.8516 3.34995 20.5599 3.22495 20.2266 3.22495C19.8932 3.22495 19.6016 3.34995 19.3516 3.59995L12.0016 10.95L4.65156 3.59995C4.41823 3.36662 4.1309 3.24995 3.78956 3.24995C3.44756 3.24995 3.15156 3.37495 2.90156 3.62495C2.65156 3.87495 2.52656 4.16662 2.52656 4.49995C2.52656 4.83328 2.65156 5.12495 2.90156 5.37495Z"
+                                    fill="currentColor" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2124_2551">
+                                    <rect width="14" height="24" fill="currentColor"
+                                        transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 24 14.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="faq__contents">
+                        <p class="faq__content">Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis
+                            enim natoque tempus a malesuada suspendisse
+                            iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id
+                            parturient ullamcorper
+                            ullamcorper class ad consectetur tristique et.</p>
+                        <p class="faq__content">Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo
+                            a praesent conubia aenean mi tempor.</p>
+                    </div>
+                </button>
+                <button class="faq__item btn">
+                    <div class="faq__top">
+                        <h3 class="title">Получу ли я тот же товар, что и на картинке?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                            <g clip-path="url(#clip0_2124_2551)">
+                                <path
+                                    d="M2.90156 5.37495L11.3016 13.8C11.4016 13.9 11.5099 13.9706 11.6266 14.012C11.7432 14.054 11.8682 14.075 12.0016 14.075C12.1349 14.075 12.2599 14.054 12.3766 14.012C12.4932 13.9706 12.6016 13.9 12.7016 13.8L21.1266 5.37495C21.3599 5.14162 21.4766 4.84995 21.4766 4.49995C21.4766 4.14995 21.3516 3.84995 21.1016 3.59995C20.8516 3.34995 20.5599 3.22495 20.2266 3.22495C19.8932 3.22495 19.6016 3.34995 19.3516 3.59995L12.0016 10.95L4.65156 3.59995C4.41823 3.36662 4.1309 3.24995 3.78956 3.24995C3.44756 3.24995 3.15156 3.37495 2.90156 3.62495C2.65156 3.87495 2.52656 4.16662 2.52656 4.49995C2.52656 4.83328 2.65156 5.12495 2.90156 5.37495Z"
+                                    fill="currentColor" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2124_2551">
+                                    <rect width="14" height="24" fill="currentColor"
+                                        transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 24 14.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="faq__contents">
+                        <p class="faq__content">Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis
+                            enim natoque tempus a malesuada suspendisse
+                            iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id
+                            parturient ullamcorper
+                            ullamcorper class ad consectetur tristique et.</p>
+                        <p class="faq__content">Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo
+                            a praesent conubia aenean mi tempor.</p>
+                    </div>
+                </button>
+                <button class="faq__item btn">
+                    <div class="faq__top">
+                        <h3 class="title">Получу ли я тот же товар, что и на картинке?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                            <g clip-path="url(#clip0_2124_2551)">
+                                <path
+                                    d="M2.90156 5.37495L11.3016 13.8C11.4016 13.9 11.5099 13.9706 11.6266 14.012C11.7432 14.054 11.8682 14.075 12.0016 14.075C12.1349 14.075 12.2599 14.054 12.3766 14.012C12.4932 13.9706 12.6016 13.9 12.7016 13.8L21.1266 5.37495C21.3599 5.14162 21.4766 4.84995 21.4766 4.49995C21.4766 4.14995 21.3516 3.84995 21.1016 3.59995C20.8516 3.34995 20.5599 3.22495 20.2266 3.22495C19.8932 3.22495 19.6016 3.34995 19.3516 3.59995L12.0016 10.95L4.65156 3.59995C4.41823 3.36662 4.1309 3.24995 3.78956 3.24995C3.44756 3.24995 3.15156 3.37495 2.90156 3.62495C2.65156 3.87495 2.52656 4.16662 2.52656 4.49995C2.52656 4.83328 2.65156 5.12495 2.90156 5.37495Z"
+                                    fill="currentColor" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2124_2551">
+                                    <rect width="14" height="24" fill="currentColor"
+                                        transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 24 14.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="faq__contents">
+                        <p class="faq__content">Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis
+                            enim natoque tempus a malesuada suspendisse
+                            iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id
+                            parturient ullamcorper
+                            ullamcorper class ad consectetur tristique et.</p>
+                        <p class="faq__content">Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo
+                            a praesent conubia aenean mi tempor.</p>
+                    </div>
+                </button>
+                <button class="faq__item btn">
+                    <div class="faq__top">
+                        <h3 class="title">Получу ли я тот же товар, что и на картинке?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                            <g clip-path="url(#clip0_2124_2551)">
+                                <path
+                                    d="M2.90156 5.37495L11.3016 13.8C11.4016 13.9 11.5099 13.9706 11.6266 14.012C11.7432 14.054 11.8682 14.075 12.0016 14.075C12.1349 14.075 12.2599 14.054 12.3766 14.012C12.4932 13.9706 12.6016 13.9 12.7016 13.8L21.1266 5.37495C21.3599 5.14162 21.4766 4.84995 21.4766 4.49995C21.4766 4.14995 21.3516 3.84995 21.1016 3.59995C20.8516 3.34995 20.5599 3.22495 20.2266 3.22495C19.8932 3.22495 19.6016 3.34995 19.3516 3.59995L12.0016 10.95L4.65156 3.59995C4.41823 3.36662 4.1309 3.24995 3.78956 3.24995C3.44756 3.24995 3.15156 3.37495 2.90156 3.62495C2.65156 3.87495 2.52656 4.16662 2.52656 4.49995C2.52656 4.83328 2.65156 5.12495 2.90156 5.37495Z"
+                                    fill="currentColor" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2124_2551">
+                                    <rect width="14" height="24" fill="currentColor"
+                                        transform="matrix(1.19249e-08 -1 -1 -1.19249e-08 24 14.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="faq__contents">
+                        <p class="faq__content">Consectetur cras scelerisque dis nec mi vestibulum ullamcorper turpis
+                            enim natoque tempus a malesuada suspendisse
+                            iaculis adipiscing himenaeos tincidunt.Tellus pharetra dis nostra urna a scelerisque id
+                            parturient ullamcorper
+                            ullamcorper class ad consectetur tristique et.</p>
+                        <p class="faq__content">Hendrerit mollis facilisi odio a montes scelerisque a scelerisque justo
+                            a praesent conubia aenean mi tempor.</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- faq end -->
+
+    <!-- staffs -->
+    <section class="staffs" id="staffs">
+        <div class="list">
+            <div>
+                <img src="images/staffs/staff.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/2.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/3.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/4.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/5.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/6.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/7 1.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/staff.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/2.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/3.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/4.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/5.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/6.png" alt="Staff">
+            </div>
+            <div>
+                <img src="images/staffs/7 1.png" alt="Staff">
+            </div>
+        </div>
+        <button class="btn to-top" title="to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="24" viewBox="0 0 41 24" fill="none">
+                <g clip-path="url(#clip0_16201_74)">
+                    <path
+                        d="M36.0467 15.6428L21.6967 1.19994C21.5259 1.02852 21.3408 0.907373 21.1415 0.836516C20.9422 0.764516 20.7287 0.728516 20.5009 0.728516C20.2731 0.728516 20.0596 0.764516 19.8603 0.836516C19.661 0.907373 19.4759 1.02852 19.3051 1.19994L4.91237 15.6428C4.51376 16.0428 4.31445 16.5428 4.31445 17.1428C4.31445 17.7428 4.52799 18.2571 4.95508 18.6857C5.38216 19.1142 5.88042 19.3285 6.44987 19.3285C7.01931 19.3285 7.51758 19.1142 7.94466 18.6857L20.5009 6.08566L33.0572 18.6857C33.4558 19.0857 33.9466 19.2857 34.5297 19.2857C35.114 19.2857 35.6197 19.0714 36.0467 18.6428C36.4738 18.2142 36.6874 17.7142 36.6874 17.1428C36.6874 16.5714 36.4738 16.0714 36.0467 15.6428Z"
+                        fill="currentColor" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_16201_74">
+                        <rect width="24" height="41" fill="currentColor"
+                            transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </button>
+    </section>
+    <!-- staffs end -->
+
+    <!-- newsletter -->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <h2 class="title">subscribe newsletter</h2>
+            <form class="newsletter__form">
+                <label for="email" class="email">
+                    <input type="text" class="form-control" placeholder="E-mail" id="email">
+                    <button class="btn" type="submit">Subscribe</button>
+                </label>
+                <label for="checkbox" class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <span class="checkbox__text">Согласен(на) на обработку персональных данных</span>
+                </label>
+            </form>
+        </div>
+    </section>
+    <!-- newsletter end -->
+
+    <script>
+        const logo = `<svg xmlns="http://www.w3.org/2000/svg" width="87" height="48" viewBox="0 0 87 48" fill="none">
+                        <path
+                            d="M20.8632 21.3305C23.0001 21.3305 24.7323 19.5545 24.7323 17.3638C24.7323 15.1731 23.0001 13.3972 20.8632 13.3972C18.7264 13.3972 16.9941 15.1731 16.9941 17.3638C16.9941 19.5545 18.7264 21.3305 20.8632 21.3305Z"
+                            stroke="white" stroke-width="0.731399" stroke-miterlimit="10" />
+                        <path
+                            d="M23.9589 9.27218C26.0958 9.27218 27.828 7.49626 27.828 5.30555C27.828 3.11485 26.0958 1.33893 23.9589 1.33893C21.8221 1.33893 20.0898 3.11485 20.0898 5.30555C20.0898 7.49626 21.8221 9.27218 23.9589 9.27218Z"
+                            stroke="white" stroke-width="0.731399" stroke-miterlimit="10" />
+                        <path
+                            d="M24.1086 5.74202C24.1396 5.73996 24.1698 5.73128 24.1971 5.71656C24.2245 5.70184 24.2483 5.68142 24.2671 5.65669C24.6474 5.13252 24.1647 4.97648 24.1647 4.97648L16.6874 5.57379C16.6516 5.5784 16.6153 5.57423 16.5815 5.56164C16.5477 5.54904 16.5175 5.52841 16.4935 5.50152C16.4695 5.47463 16.4524 5.44229 16.4437 5.40731C16.435 5.37232 16.435 5.33574 16.4436 5.30074C16.5756 4.67817 16.8043 4.08011 17.1213 3.52831C17.1598 3.45813 17.2164 3.39958 17.2852 3.3588C17.3541 3.31801 17.4326 3.29649 17.5126 3.29649C17.5927 3.29649 17.6712 3.31801 17.74 3.3588C17.8089 3.39958 17.8655 3.45813 17.9039 3.52831L17.9015 4.14269C17.8989 4.18455 17.9091 4.22621 17.9307 4.26215C17.9729 4.32651 18.0297 4.37998 18.0965 4.41818C18.1282 4.43464 18.1633 4.44315 18.199 4.44295C18.2347 4.44275 18.2698 4.43387 18.3012 4.41706C18.3327 4.40025 18.3596 4.37602 18.3795 4.34648C18.3995 4.31694 18.412 4.28298 18.4159 4.24752C18.4744 3.75992 18.489 2.6677 17.47 2.62382C16.0949 2.55555 15.7366 5.1569 15.6512 6.11503C15.647 6.1602 15.6525 6.20574 15.6673 6.24862C15.6821 6.2915 15.7059 6.33074 15.737 6.36372C15.7681 6.39671 15.8059 6.42268 15.8479 6.43991C15.8899 6.45715 15.935 6.46524 15.9804 6.46366H17.1018C17.1327 6.46385 17.1632 6.47048 17.1914 6.48313C17.2195 6.49577 17.2447 6.51416 17.2654 6.5371C17.286 6.56005 17.3017 6.58705 17.3113 6.61639C17.3209 6.64572 17.3243 6.67674 17.3212 6.70746L16.7971 12.349C16.793 12.4019 16.7696 12.4514 16.7314 12.4883C16.6932 12.5251 16.6429 12.5467 16.5898 12.5489L15.0198 12.6416C14.9864 12.6432 14.9532 12.6373 14.9224 12.6242C14.8917 12.6112 14.8643 12.5915 14.8423 12.5664C14.8203 12.5413 14.8042 12.5116 14.7952 12.4794C14.7863 12.4473 14.7847 12.4135 14.7906 12.3807C14.845 12.1099 14.8776 11.8351 14.8881 11.5591C14.8881 11.2811 14.6443 11.1788 14.5176 11.1007C14.5002 11.0891 14.4803 11.0819 14.4595 11.0798C14.4388 11.0777 14.4178 11.0808 14.3985 11.0888C14.3792 11.0967 14.3622 11.1093 14.3489 11.1254C14.3357 11.1416 14.3266 11.1607 14.3225 11.1812L13.7008 14.1531C13.6928 14.1879 13.6935 14.2241 13.7029 14.2586C13.7123 14.293 13.73 14.3246 13.7545 14.3506C13.8276 14.4257 13.9255 14.4716 14.03 14.4798C14.0793 14.4841 14.1286 14.4719 14.1701 14.4449C14.2117 14.418 14.243 14.3779 14.2591 14.3311L14.5151 13.5997C14.5285 13.5597 14.553 13.5244 14.5859 13.4981C14.6187 13.4717 14.6585 13.4554 14.7004 13.451L16.5679 13.2657C16.6022 13.2621 16.6368 13.2666 16.669 13.2789C16.7012 13.2912 16.73 13.3109 16.7532 13.3364L20.7515 17.7248C20.7722 17.7476 20.7974 17.766 20.8255 17.7786C20.8536 17.7911 20.884 17.7977 20.9149 17.7979H21.066C21.1125 17.7982 21.1578 17.7837 21.1955 17.7565C21.2331 17.7293 21.2612 17.6909 21.2757 17.6468L23.1724 12.0247C23.1845 11.989 23.1873 11.9507 23.1804 11.9136C23.1736 11.8765 23.1574 11.8418 23.1334 11.8126L18.745 6.54656C18.725 6.52381 18.71 6.49702 18.7012 6.468C18.6924 6.43898 18.6898 6.4084 18.6938 6.37833V6.32714C18.6999 6.27652 18.7235 6.22962 18.7604 6.19447C18.7973 6.15932 18.8453 6.13813 18.8962 6.13453L24.1086 5.74202ZM22.1363 13.0146L20.9173 16.3571C20.904 16.3925 20.8819 16.424 20.8531 16.4485C20.8242 16.473 20.7896 16.4897 20.7524 16.4971C20.7153 16.5044 20.6769 16.5021 20.6409 16.4904C20.6049 16.4787 20.5725 16.458 20.5467 16.4302L17.8479 13.5046C17.821 13.475 17.8026 13.4387 17.7947 13.3995C17.7868 13.3604 17.7896 13.3198 17.8028 13.2821C17.8161 13.2443 17.8392 13.2109 17.8699 13.1853C17.9006 13.1597 17.9376 13.1428 17.9771 13.1365L21.8779 12.5075C21.9084 12.5044 21.9392 12.5077 21.9684 12.5172C21.9975 12.5267 22.0244 12.5421 22.0473 12.5625C22.0702 12.5829 22.0887 12.6078 22.1015 12.6357C22.1143 12.6636 22.1211 12.6938 22.1217 12.7244V12.9365C22.1318 12.9613 22.1367 12.9878 22.1363 13.0146ZM21.756 11.6761L17.7698 12.3051C17.737 12.3086 17.7038 12.3046 17.6726 12.2936C17.6415 12.2826 17.6132 12.2647 17.5898 12.2413C17.5664 12.218 17.5486 12.1897 17.5376 12.1585C17.5265 12.1274 17.5226 12.0942 17.526 12.0613L18.0136 7.42911C18.0214 7.39019 18.0395 7.35408 18.066 7.32453C18.0926 7.29499 18.1265 7.2731 18.1644 7.26115C18.2022 7.24919 18.2426 7.24761 18.2813 7.25657C18.3199 7.26553 18.3555 7.2847 18.3842 7.31209L21.8876 11.3128C21.9132 11.3427 21.9304 11.3788 21.9375 11.4174C21.9446 11.4561 21.9412 11.4959 21.9278 11.5329C21.9144 11.5699 21.8915 11.6026 21.8613 11.6277C21.8311 11.6529 21.7947 11.6696 21.756 11.6761Z"
+                            fill="white" stroke="white" stroke-width="0.2438" stroke-miterlimit="10" />
+                        <path
+                            d="M65.6308 40.2972L67.3106 35.8307L63.5 33.0465H68.3736L69.9314 28.6216L71.2016 33.127H75.8704L71.9379 35.7503L73.1277 40.2972L69.6852 37.7153"
+                            fill="#F57520" />
+                        <path d="M45.5352 47.7628H50.4266L64.0335 0.627502H59.1421L45.5352 47.7628Z" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M52.7383 47.7628L54.2502 43.0493H71.4145L71.7135 43.0495C72.1615 43.05 72.5882 43.0505 72.9986 43.0403C75.29 42.9169 77.3833 41.6646 78.9995 40.0182C80.6744 38.3121 81.6131 36.0157 81.6134 33.6235C81.6135 31.2156 80.6631 28.9051 78.9693 27.1955C78.1052 26.3232 77.094 25.9124 75.9914 25.7165C75.2809 25.6217 74.5645 25.5653 73.8648 25.5419C73.5559 25.5356 73.2432 25.5335 72.9276 25.5314C72.8257 25.5307 72.7235 25.53 72.6211 25.5292H58.8748L60.2088 21.2603H66.9678C68.1738 21.2603 68.8877 21.2729 69.5087 21.2839C70.5363 21.3021 71.3097 21.3158 73.6379 21.2603C74.8619 21.2312 75.6672 21.1925 76.3827 20.9992C77.54 20.5659 78.6006 19.8822 79.4828 18.9832C81.0516 17.3844 81.9309 15.2324 81.9312 12.9907C81.9313 10.7342 81.0694 8.27717 79.4828 6.67505C77.8965 5.07327 75.7531 4.82592 73.5007 4.80743H65.1002L66.0785 0.627511H72.126C72.6095 0.627511 72.9971 0.622948 73.3334 0.61899C74.4817 0.605474 75.0309 0.59901 76.7506 0.805378C76.989 0.833986 77.2073 0.877997 77.4097 0.935744C79.4346 1.29055 81.2992 2.03294 82.8138 3.56234C85.2684 6.04111 86.6069 9.49953 86.6228 12.9907C86.6076 16.4597 85.2409 19.7856 82.8138 22.2604C82.5035 22.5768 82.1776 22.8528 81.838 23.0938C82.0669 23.2688 82.2899 23.4645 82.5066 23.6832C85.1271 26.3283 86.605 29.8981 86.622 33.6235C86.6057 37.3253 85.1467 40.8745 82.5556 43.5154C80.8927 45.2102 78.8475 46.4084 76.6185 47.0711C75.3662 47.51 73.9359 47.7628 72.3039 47.7628H52.7383Z"
+                            fill="white" />
+                        <path d="M0.888672 0.627258H5.69114L17.1637 40.381L15.385 47.7626L0.888672 0.627258Z"
+                            fill="white" />
+                        <path
+                            d="M17.2539 47.7627H21.9674L31.9281 9.1651L43.3117 47.7627L45.624 40.2033L33.7068 0.62738H29.2601L17.2539 47.7627Z"
+                            fill="white" />
+                    </svg>`;
+
+        const faqItems = document.querySelectorAll('.faq__item');
+        const toTopBtn = document.querySelector('.to-top');
+
+        faqItems.forEach(el => {
+            el.addEventListener('click', () => {
+                if (!el.classList.contains("active")) {
+                    faqItems.forEach(el => {
+                        el.classList.remove('active');
+                    });
+                    el.classList.add('active');
+                }
+                else
+                    el.classList.remove('active');
+            });
+        });
+
+        const logoEls = document.querySelectorAll('.logo');
+        logoEls.forEach(el => {
+            el.innerHTML = logo;
+        });
+
+        toTopBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        })
+    </script>
+</body>
+
+</html>
