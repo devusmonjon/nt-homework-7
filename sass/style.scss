@@ -169,6 +169,11 @@ $gray-color: #777777;
             height: 148px;
             background: url("../images/location.svg") transparent 100% / contain no-repeat;
             background-position: center 10px;
+            transition: all 0.3s ease;
+            &:hover,
+            &:focus {
+                filter: drop-shadow(0 0 6px #00000080);
+            }
         }
     }
 }
