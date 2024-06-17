@@ -101,7 +101,7 @@ $gray-color: #777777;
                 }
                 &.active {
                     span:nth-child(1) {
-                        transform: rotate(45deg) translateY(15px);
+                        transform: rotate(45deg) translateY(7.5px) translateX(15px);
                         width: 100%;
                     }
                     span:nth-child(2) {
@@ -109,7 +109,7 @@ $gray-color: #777777;
                     }
                     span:nth-child(3) {
                         width: 100%;
-                        transform: rotate(-45deg) translateY(-15px);
+                        transform: rotate(-45deg) translateY(-1px) translateX(8px);
                     }
                 }
             }
