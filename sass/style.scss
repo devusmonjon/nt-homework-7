@@ -855,6 +855,19 @@ $gray-color: #777777;
 }
 // media screen and max-width: 500px end
 
+// media screen and max-width: 571px
+@media screen and (max-width: 571px) {
+    .faq {
+        &__item {
+            height: 105.59px;
+            &.active {
+                height: calc(105.59px + 240px - 48px);
+            }
+        }
+    }
+}
+// media screen and max-width: 571px end
+
 // media screen and max-width: 400px
 @media screen and (max-width: 400px) {
     .header {
@@ -879,3 +892,16 @@ $gray-color: #777777;
     }
 }
 // media screen and max-width: 400px end
+
+// media screen and max-width: 382px
+@media screen and (max-width: 382px) {
+    .faq {
+        &__item {
+            height: 134.39px;
+            &.active {
+                height: calc(134.39px + 336px - 48px);
+            }
+        }
+    }
+}
+// media screen and max-width: 382px end
